@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="tela" disabled>
+        <div class="botoes">
+            <button onclick="inserirNaTela('1')">1</button>
+            <button onclick="inserirNaTela('2')">2</button>
+            <button onclick="inserirNaTela('3')">3</button>
+
+            <button onclick="inserirNaTela('4')">4</button>
+            <button onclick="inserirNaTela('5')">5</button>
+            <button onclick="inserirNaTela('6')">6</button>
+
+            <button onclick="inserirNaTela('7')">7</button>
+            <button onclick="inserirNaTela('8')">8</button>
+            <button onclick="inserirNaTela('9')">9</button>
+
+            <button onclick="inserirNaTela('0')">0</button>
+            <button onclick="limpar()" class="c">C</button>
+            <button onclick="resultado()" class="igual">=</button>
+
+            <button onclick="inserirNaTela('*')" class="operador">*</button>
+            <button onclick="inserirNaTela('+')" class="operador">+</button>
+            <button onclick="inserirNaTela('-')" class="operador">-</button>
+            <button onclick="inserirNaTela('/')" class="operador">/</button>
+            
+        </div>
+
+
+    </div>
+    <script type="module" src="./calculadora.js"></script>
+</body>
+</html>
